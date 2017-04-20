@@ -1,0 +1,125 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+html{
+	position:relative;
+	min-height:100%
+}
+
+.navbar {
+	margin-bottom: 50px;
+	border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+	margin-bottom: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #f2f2f2;
+	position:relative;
+	
+}
+
+#searchform {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: floralwhite;
+    font-size: 12pt;
+}
+
+.logoimg {
+	height: 59px;
+	width: 90px;
+}
+
+.searchpadding {
+	padding-left: 300px;
+}
+
+.homesearchpadding {
+	padding-left: 200px;
+}
+ 
+#post_item {
+	line-height: 2;
+}
+
+.btn-submitpost {
+	background-color: #555555;
+	border: none;
+	color: white;
+	padding: 8px 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-brandnew {
+	float: left;
+	height: 50px;
+	padding: 8px 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.navbar-brandsearch {
+	/* float: left; */
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 12pt;
+	line-height: 20px;
+	color: floralwhite;
+}
+
+#homelink:hover {
+	color: white;
+	text-decoration:none;
+}
+
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 12px;
+	padding-top: 7px;
+}
+
+.panel-title {
+	display: inline;
+	font-weight: bold;
+}
+
+.checkbox.pull-right {
+	margin: 0;
+}
+
+.pl-ziro {
+	padding-left: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: floralwhite;
+  font-size: 12pt;
+}
+
+h3{
+	font-family: cursive;
+    color: crimson;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#editpostbutton:hover
+{
+color: white;
+text-decoration:none;	
+
+}
+
+.panel-primary>.panel-heading {
+	font-weight:500;
+}
+	
